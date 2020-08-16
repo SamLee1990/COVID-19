@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		04518F7024E421C900B9D66C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518F6F24E421C900B9D66C /* AppDelegate.swift */; };
 		04518F7224E421C900B9D66C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518F7124E421C900B9D66C /* SceneDelegate.swift */; };
-		04518F7424E421C900B9D66C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518F7324E421C900B9D66C /* ViewController.swift */; };
 		04518F7724E421C900B9D66C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04518F7524E421C900B9D66C /* Main.storyboard */; };
 		04518F7924E421CC00B9D66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04518F7824E421CC00B9D66C /* Assets.xcassets */; };
 		04518F7C24E421CC00B9D66C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04518F7A24E421CC00B9D66C /* LaunchScreen.storyboard */; };
+		04518F8424E4256200B9D66C /* Covid19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518F8324E4256200B9D66C /* Covid19.swift */; };
+		04518F8924E4D31300B9D66C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04518F8824E4D31300B9D66C /* Preview Assets.xcassets */; };
+		04518FB524E7A6D800B9D66C /* CovidTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518FB424E7A6D800B9D66C /* CovidTableViewController.swift */; };
+		04518FB724E7C79900B9D66C /* CountrysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518FB624E7C79900B9D66C /* CountrysTableViewCell.swift */; };
+		04518FBB24E7E47E00B9D66C /* DetialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04518FBA24E7E47E00B9D66C /* DetialTableViewController.swift */; };
+		048D464F24E911A5009424D4 /* TaiwanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D464E24E911A5009424D4 /* TaiwanTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04518F6C24E421C900B9D66C /* COVID-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04518F6F24E421C900B9D66C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04518F7124E421C900B9D66C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04518F7324E421C900B9D66C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04518F7624E421C900B9D66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04518F7824E421CC00B9D66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04518F7B24E421CC00B9D66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04518F7D24E421CC00B9D66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04518F8324E4256200B9D66C /* Covid19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19.swift; sourceTree = "<group>"; };
+		04518F8824E4D31300B9D66C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04518FB424E7A6D800B9D66C /* CovidTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidTableViewController.swift; sourceTree = "<group>"; };
+		04518FB624E7C79900B9D66C /* CountrysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrysTableViewCell.swift; sourceTree = "<group>"; };
+		04518FBA24E7E47E00B9D66C /* DetialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialTableViewController.swift; sourceTree = "<group>"; };
+		048D464E24E911A5009424D4 /* TaiwanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,26 @@
 			children = (
 				04518F6F24E421C900B9D66C /* AppDelegate.swift */,
 				04518F7124E421C900B9D66C /* SceneDelegate.swift */,
-				04518F7324E421C900B9D66C /* ViewController.swift */,
 				04518F7524E421C900B9D66C /* Main.storyboard */,
+				048D464E24E911A5009424D4 /* TaiwanTableViewController.swift */,
+				04518FBA24E7E47E00B9D66C /* DetialTableViewController.swift */,
+				04518FB624E7C79900B9D66C /* CountrysTableViewCell.swift */,
+				04518FB424E7A6D800B9D66C /* CovidTableViewController.swift */,
+				04518F8324E4256200B9D66C /* Covid19.swift */,
 				04518F7824E421CC00B9D66C /* Assets.xcassets */,
 				04518F7A24E421CC00B9D66C /* LaunchScreen.storyboard */,
 				04518F7D24E421CC00B9D66C /* Info.plist */,
+				04518F8724E4D25B00B9D66C /* Preview Content */,
 			);
 			path = "COVID-19";
+			sourceTree = "<group>";
+		};
+		04518F8724E4D25B00B9D66C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04518F8824E4D31300B9D66C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04518F8924E4D31300B9D66C /* Preview Assets.xcassets in Resources */,
 				04518F7C24E421CC00B9D66C /* LaunchScreen.storyboard in Resources */,
 				04518F7924E421CC00B9D66C /* Assets.xcassets in Resources */,
 				04518F7724E421C900B9D66C /* Main.storyboard in Resources */,
@@ -137,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04518F7424E421C900B9D66C /* ViewController.swift in Sources */,
+				04518FBB24E7E47E00B9D66C /* DetialTableViewController.swift in Sources */,
+				04518FB724E7C79900B9D66C /* CountrysTableViewCell.swift in Sources */,
 				04518F7024E421C900B9D66C /* AppDelegate.swift in Sources */,
+				048D464F24E911A5009424D4 /* TaiwanTableViewController.swift in Sources */,
 				04518F7224E421C900B9D66C /* SceneDelegate.swift in Sources */,
+				04518FB524E7A6D800B9D66C /* CovidTableViewController.swift in Sources */,
+				04518F8424E4256200B9D66C /* Covid19.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "COVID-19/Preview\\ Content";
 				DEVELOPMENT_TEAM = 3H8BWNT9J5;
 				INFOPLIST_FILE = "COVID-19/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,6 +335,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "COVID-19/Preview\\ Content";
 				DEVELOPMENT_TEAM = 3H8BWNT9J5;
 				INFOPLIST_FILE = "COVID-19/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

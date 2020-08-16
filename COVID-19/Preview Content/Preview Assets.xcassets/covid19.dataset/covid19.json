@@ -1,0 +1,32 @@
+{
+  "updated": 1597283989720,
+  "country": "Taiwan",
+  "countryInfo": {
+    "_id": null,
+    "iso2": "TW",
+    "iso3": "TWN",
+    "lat": 23.5,
+    "long": 121,
+    "flag": "https://disease.sh/assets/img/flags/tw.png"
+  },
+  "cases": 481,
+  "todayCases": 1,
+  "deaths": 7,
+  "todayDeaths": 0,
+  "recovered": 450,
+  "todayRecovered": 7,
+  "active": 24,
+  "critical": 0,
+  "casesPerOneMillion": 20,
+  "deathsPerOneMillion": 0.3,
+  "tests": 83828,
+  "testsPerOneMillion": 3519,
+  "population": 23821903,
+  "continent": "Asia",
+  "oneCasePerPeople": 49526,
+  "oneDeathPerPeople": 3403129,
+  "oneTestPerPeople": 284,
+  "activePerOneMillion": 1.01,
+  "recoveredPerOneMillion": 18.89,
+  "criticalPerOneMillion": 0
+}
